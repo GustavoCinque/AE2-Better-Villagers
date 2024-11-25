@@ -1,6 +1,6 @@
 {
   "entity.minecraft.villager.ae_better_villagers.ae_toolsmith": "AE Toolsmith",
-  "entity.minecraft.villager.ae_better_villagers.ae_crystal_harvester": "AE Crystal Harvester",
+  //"entity.minecraft.villager.ae_better_villagers.ae_crystal_harvester": "AE Crystal Harvester",
   "entity.minecraft.villager.ae_better_villagers.ae_engineer": "AE Engineer",
   "entity.minecraft.villager.ae_better_villagers.ae_specialist": "AE Specialist"
 }

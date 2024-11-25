@@ -3,7 +3,7 @@
   "values": [
     "ae_better_villagers:ae_toolsmith",
     "ae_better_villagers:ae_engineer",
-    "ae_better_villagers:ae_specialist",
-    "ae_better_villagers:ae_crystal_harvester"
+    "ae_better_villagers:ae_specialist"
+    //"ae_better_villagers:ae_crystal_harvester"
   ]
 }

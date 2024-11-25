@@ -35,10 +35,15 @@ import com.google.common.collect.ImmutableSet;
 public class AeBetterVillagersModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, AeBetterVillagersMod.MODID);
+	// AE_TOOLSMITH
 	public static final RegistryObject<VillagerProfession> AE_TOOLSMITH = registerProfession("ae_toolsmith", AEBlocks.CELL_WORKBENCH::block, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.smithing_table.use")));
+	//AE_ENGINEER
 	public static final RegistryObject<VillagerProfession> AE_ENGINEER = registerProfession("ae_engineer", AEBlocks.CONTROLLER::block, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grindstone.use")));
+	//AE_SPECIALIST
 	public static final RegistryObject<VillagerProfession> AE_SPECIALIST = registerProfession("ae_specialist", AEBlocks.CRAFTING_STORAGE_16K::block, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.use")));
-	public static final RegistryObject<VillagerProfession> AE_CRYSTAL_HARVESTER = registerProfession("ae_crystal_harvester", AEBlocks.CONDENSER::block , () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_cluster.break")));
+	//AE_CRYSTAL_HARVESTER
+	//public static final RegistryObject<VillagerProfession> AE_CRYSTAL_HARVESTER = registerProfession("ae_crystal_harvester", AEBlocks.CONDENSER::block , () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_cluster.break")));
+
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));
