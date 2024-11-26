@@ -1,7 +1,4 @@
 
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package com.reggarf.mods.aebettervillagers.init;
 
 import appeng.core.definitions.AEBlocks;
@@ -42,6 +39,7 @@ public class AeBetterVillagersModVillagerProfessions {
 	//AE_SPECIALIST
 	public static final RegistryObject<VillagerProfession> AE_SPECIALIST = registerProfession("ae_specialist", AEBlocks.CRAFTING_STORAGE_16K::block, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.use")));
 	//AE_CRYSTAL_HARVESTER
+	//NOte :- Still working on trades. if you have any idea let me know
 	//public static final RegistryObject<VillagerProfession> AE_CRYSTAL_HARVESTER = registerProfession("ae_crystal_harvester", AEBlocks.CONDENSER::block , () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_cluster.break")));
 
 
