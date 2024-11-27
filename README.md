@@ -1,4 +1,4 @@
-<h2>SUPPOTER</h2>
+<h2>SERVER HOSTING</h2>
 
 ![description_2dbdedf7-e1a0-4bcd-86a6-01c26447af70](https://github.com/user-attachments/assets/95182bc5-3803-4c00-bce0-df9b470da205)
 
