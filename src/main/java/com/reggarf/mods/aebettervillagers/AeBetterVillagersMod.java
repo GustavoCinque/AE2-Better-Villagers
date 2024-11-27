@@ -1,5 +1,8 @@
 package com.reggarf.mods.aebettervillagers;
 
+import com.reggarf.mods.aebettervillagers.join.FirstJoinMessageHandler;
+import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.config.ModConfig;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -40,6 +43,7 @@ public class AeBetterVillagersMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AeBetterVillagersModVillagerProfessions.PROFESSIONS.register(bus);
+		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
 
 		// Start of user code block mod init
 		// End of user code block mod init
