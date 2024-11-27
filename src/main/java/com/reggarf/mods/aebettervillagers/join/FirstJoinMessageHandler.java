@@ -31,7 +31,7 @@ public class FirstJoinMessageHandler {
 
         welcomeMessage = builder
                 .comment("The message to be displayed when a player joins the game for the first time")
-                .define("text", "THANKS TO OUR SPONSORS. THANKS TO ZAP-HOSTING! Use code Reggarf-1047 for 20% off any order!");
+                .define("text", "THANKS TO OUR SPONSORS, ZAP-HOSTING! Support Reggarf And Save BIG - USE CODE Reggarf-1047 FOR 20% OFF Your ORDER!");
 
         clickableUrl = builder
                 .comment("The URL to be opened when the player clicks the link")

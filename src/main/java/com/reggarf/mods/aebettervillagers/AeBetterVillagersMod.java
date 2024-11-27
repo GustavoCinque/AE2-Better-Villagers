@@ -43,6 +43,8 @@ public class AeBetterVillagersMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AeBetterVillagersModVillagerProfessions.PROFESSIONS.register(bus);
+
+		//join register
 		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
 
 		// Start of user code block mod init
