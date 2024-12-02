@@ -1,5 +1,5 @@
 {
-  "itemGroup.ae_better_villagers": "Example Mod Tab",
-  "block.ae_better_villagers.example_block": "Example Block",
-  "item.ae_better_villagers.example_item": "Example Item"
+  "entity.minecraft.villager.ae_better_villagers.ae_toolsmith": "AE Toolsmith",
+  "entity.minecraft.villager.ae_better_villagers.ae_engineer": "AE Engineer",
+  "entity.minecraft.villager.ae_better_villagers.ae_specialist": "AE specialist"
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ae_better_villagers:ae_toolsmith",
+    "ae_better_villagers:ae_engineer",
+    "ae_better_villagers:ae_specialist"
+  ]
+}
