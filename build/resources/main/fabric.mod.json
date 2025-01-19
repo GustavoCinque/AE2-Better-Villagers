@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ae_better_villagers",
+  "version": "1.16.1.c-Fabric-1.20.1",
+  "name": "AE2 Better Villagers",
+  "description": "An expansion to AE2 that adds a fully-featured host of AE2-mod village professions.",
+  "authors": [
+    "Reggarf aka Anoop Singh"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/ae2-better-villagers",
+    "sources": "https://github.com/Reggarfgod/AE2-Better-Villagers",
+    "issues": "https://github.com/Reggarfgod/AE2-Better-Villagers/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/ae_better_villagers/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.reggarf.mods.ae_better_villagers.client.Ae_better_villagersClient"
+    ],
+    "main": [
+      "com.reggarf.mods.ae_better_villagers.Ae_better_villagers"
+    ]
+  },
+  "mixins": [
+    "ae_better_villagers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "ae2": "*"
+  }
+}

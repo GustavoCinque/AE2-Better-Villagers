@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ae_better_villagers:ae_toolsmith_poi",
+      "required": false
+    },
+    {
+      "id": "ae_better_villagers:ae_engineer_poi",
+      "required": false
+    },
+    {
+      "id": "ae_better_villagers:ae_specialist_poi",
+      "required": false
+    }
+  ]
+}
